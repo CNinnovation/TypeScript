@@ -5,11 +5,11 @@
 1. Install the Git Tools [Git for Windows](https://git-for-windows.github.io/ "Git for Windows")
 2. Register a GitHub Account at [GitHub](https://www.github.com "GitHub") if you don't have a GitHub Account yet and sign in to this account
 3. Install GitHub Desktop [GitHub Desktop](https://github-windows.s3.amazonaws.com/GitHubSetup.exe "GitHub Desktop")
-4. Clone the [course repository](https://github.com/CNinnovation/TypeScript "TypeScript Workshop") using one of the following options:
+4. Install *GitHub Extensions to Visual Studio 2015* using Extensions and Updates within Visual Studio 2015
+5. Clone the [course repository](https://github.com/CNinnovation/TypeScript "TypeScript Workshop") using one of the following options:
 
         a) Visual Studio 2015 Team Explorer
-        b) GitHub Desktop
-        c) the command line
+        b) the command line
         
 ```
 git clone https://github.com/CNinnovation/TypeScript
