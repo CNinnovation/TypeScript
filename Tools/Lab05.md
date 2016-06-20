@@ -1,6 +1,6 @@
 # Lab 5 - Tools
 
-## GitHub
+## GitHub and git
 
 1. Fork the TypeScript repository to your own GitHub account
 2. Clone the TypeScript fork to your local system
@@ -43,8 +43,7 @@ Questions:
 2. Create the Calculator type
 3. Add the add and subtract functions with implemenentations
 
-
-## Task runner - Gulp
+## Configure a Task Runner with Gulp
 
 1. Install the Task Runner gulp using `npm install -g gulp`
 2. Add gulp to the dev dependencies using `npm install --save-dev gulp`
@@ -58,9 +57,12 @@ gulp.task('default', function() {
 });
 ```
 
-4. Run gulp with `gulp`
-5. Install a gulp-plugin to compile TypeScript code `npm install -g gulp-typescript`
-6. Add this initialization to the gulpfile.js:
+4. Run gulp with `gulp`. How does the result look like?
+
+### Compile TypeScript with a Task Runner
+
+1. Install a gulp-plugin to compile TypeScript code `npm install -g gulp-typescript`
+2. Add this initialization to the gulpfile.js:
 
 ```javascript
 var ts = require('gulp-typescript');
@@ -73,7 +75,7 @@ var tsProject = ts.createProject({
 });
 ```
 
-6. Automatically compile the typescript files
+3. Compile TypeScript files using *gulp*
 
 ```javascript
 gulp.task('tsc', function() {
@@ -83,8 +85,7 @@ gulp.task('tsc', function() {
 });
 ```
 
-7. Correct the directories for the Typescript source files, create and correct the direcories for the JavaScript output
-8. Update the default task to perform the new task
+4. Update the default task to perform the new task
 
 ```javascript
 gulp.task('default', [ 'tsc' ]);
@@ -92,5 +93,7 @@ gulp.task('default', [ 'tsc' ]);
 
 ## Scaffolding
 
-1. Install Yeoman using 
+1. Install Yeoman using NPM (npm install -g yo)
+2. Add a generator for TypeScript (npm install -g generator-typescript)
+3. Run Yeoman to generate a TypeScript project (yo typescript)
 

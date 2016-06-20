@@ -1,5 +1,5 @@
 {
-  "name": "tools1",
+  "name": "tools",
   "version": "1.0.0",
   "description": "sample for tools",
   "main": "index.js",
@@ -10,6 +10,9 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-typescript": "^2.13.6"
+    "gulp-tslint": "^5.0.0",
+    "gulp-typescript": "^2.13.6",
+    "tslint": "^3.11.0",
+    "typescript": "^1.8.10"
   }
 }

@@ -8,6 +8,15 @@ gulp.task('default', [ 'tsc' ]);
 
 var ts = require('gulp-typescript');
 
+var tslint = require('gulp-tslint');
+
+gulp.task('lint', function() {
+    return gulp.src([
+      './source/ts/calculator.ts'
+    ]).pipe(tslint(), { emitError : false})
+      .pipe(tslint.report('verbose', { emitError : false}));
+});
+
 var tsProject = ts.createProject({
   removeComments : true,
   noImplicitAny : true,

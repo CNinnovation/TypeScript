@@ -12,6 +12,7 @@
 
 # Custom folders
 /Tools/temp/
+/Tools/yosample/
 
 # Build results
 [Dd]ebug/
