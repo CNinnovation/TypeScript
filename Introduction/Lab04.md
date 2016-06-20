@@ -1,4 +1,4 @@
-# Lab 4 - Intro to Functions
+# Lab 4 - Intro to Functions and Classes
 
 Experiment with TypeScript code using the **Playground** and node to run the code from the console
 
