@@ -29,4 +29,22 @@ Questions:
 2. What kind of variables are allowed to be used in such a scenario?
 3. What is the difference between const and let?
 
-## 
+## Arithmetic Operators
+
+1. Create and run a script to do calculations using +, -, *, /, %
+2. Create and run a script to do calculations using ++ and --
+
+Questions:
+
+1. What's the difference with prefixing and postfixing ++ and --?
+
+
+## Comparison Operators
+
+1. Create and run a script to use the == and === operators for verification
+2. Verify a variable using the value 3 and a variable using the value "3"
+
+Questions:
+
+1. What is the difference between == and ===?
+
