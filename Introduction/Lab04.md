@@ -1,6 +1,6 @@
-# Lab 4 - Intro to Functions
+# Lab 4 - Intro to Functions and Classes
 
-Experiment with TypeScript code using the **Playground**
+Experiment with TypeScript code using the **Playground** and node to run the code from the console
 
 1. Create and call a named function with the name *greet* that accepts an optional string parameter and returns a string
 2. Create and call a anonymous function that accepts an optional string parameter and returns a string
