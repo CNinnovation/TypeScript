@@ -39,7 +39,11 @@ public ActionResult Hello() => View();
 ## User Interface Logic
 
 1. Create a Hello class for the Hello view
-2. Use jQuery to retrieve the 
+2. Use jQuery to retrieve the HTML elements to access the HTML elements
+3. Add a click event to the button
+4. Retrieve the value of the input element
+5. Invoke the greet method
+6. Write the result to the div element
 
 ```javascript
 /// <reference path="./helloworld.ts" />
@@ -53,7 +57,7 @@ $(() => {
 });
 ```
 
-3. Add the JavaScript References to the HTML File
+7. Add the JavaScript References to the HTML File
 
 ```html
 <!-- reference -->
