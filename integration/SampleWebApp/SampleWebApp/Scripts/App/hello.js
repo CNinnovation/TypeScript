@@ -6,4 +6,6 @@ $(function () {
         $("#div1").html(greeting);
     });
 });
+//jQuery(document).ready(function () {
+//}); 
 //# sourceMappingURL=hello.js.map
