@@ -7,3 +7,6 @@ $(function () {
         $("#div1").html(greeting);
     });
 });
+
+//jQuery(document).ready(function () {
+//});

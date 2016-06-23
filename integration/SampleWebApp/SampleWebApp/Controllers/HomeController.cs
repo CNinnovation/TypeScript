@@ -10,6 +10,8 @@ namespace SampleWebApp.Controllers
     {
         public ActionResult Hello() => View();
 
+        public ActionResult Books() => View("BooksSampleView");
+
 
         public ActionResult Index()
         {
