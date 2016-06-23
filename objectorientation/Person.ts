@@ -16,7 +16,7 @@ class Person implements Displayable {
         this._firstname = firstname;
     }
 
-    getlasttname() : string {
+    getlastname() : string {
         return this._lastname;
     }
     setlasttname(lastname : string) : void {
