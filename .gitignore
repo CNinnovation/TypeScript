@@ -10,6 +10,10 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+# Custom folders
+/Tools/temp/
+/Tools/yosample/
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/

@@ -1,0 +1,20 @@
+{
+  "name": "tools1",
+  "description": "sample for tools",
+  "main": "index.js",
+  "authors": [
+    "Christian Nagel <christian@christiannagel.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/CNinnovation/TypeScript",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0"
+  }
+}
