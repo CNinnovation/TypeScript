@@ -29,6 +29,10 @@
 3. Define a constructor that initializes `_firstname`, `_lastname`, and `_car`
 4. Define the function `driveacar` that is similar to the implementation of the `Person` class, but the result is the person drives fast
 
+## Compile and run the program
+
+1. Compile all TypeScript Files to one JavaScript file with `tsc program.ts -out out.js`
+2. Run the program using node `node out.js`
 
 
 
