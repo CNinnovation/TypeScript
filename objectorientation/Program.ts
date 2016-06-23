@@ -5,6 +5,8 @@
 
 var p = new Person("Tom", "Turbo");
 p.display();
+p.driveacar();
+
 var r = new Rectangle(100, 200);
 displaySomething(r);
 displaySomething(p);

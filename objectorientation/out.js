@@ -17,10 +17,10 @@ var Person = (function () {
     Person.prototype.setfirstname = function (firstname) {
         this._firstname = firstname;
     };
-    Person.prototype.getlasttname = function () {
+    Person.prototype.getlastname = function () {
         return this._lastname;
     };
-    Person.prototype.setlasttname = function (lastname) {
+    Person.prototype.setlastname = function (lastname) {
         this._lastname = lastname;
     };
     Person.prototype.getname = function () {
@@ -77,6 +77,7 @@ var Rectangle = (function () {
 /// <reference path="./Displayable.ts" />
 var p = new Person("Tom", "Turbo");
 p.display();
+p.driveacar();
 var r = new Rectangle(100, 200);
 displaySomething(r);
 displaySomething(p);
