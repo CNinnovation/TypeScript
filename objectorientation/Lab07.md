@@ -15,11 +15,11 @@
 1. Create a Rectangle class with members for width and height
 2. Create a display function that shows the values of the rectangle
 
-## IDisplayable
+## Displayable
 
-1. Define the interface IDisplayable that contains a declaration for the display method
-2. Let Person and Rectangle implement the interface IDisplayable
-3. Define a global display method that receives an IDisplayable from the parameter
+1. Define the interface Displayable that contains a declaration for the display method
+2. Let Person and Rectangle implement the interface Displayable
+3. Define a global display method that receives an Displayable from the parameter
 4. Invoke the display method passing rectangles and persons
 
 ## Racer
